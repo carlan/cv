@@ -1,0 +1,278 @@
+{
+  "cv": {
+    "picture": "images/picture.png",
+    "name": "Carlan Calazans",
+    "title": "Senior Software Engineer",
+    "email": "carlancalazans@gmail.com",
+    "location": "Dublin/Ireland",
+    "website": "https://carlan.now.sh",
+    "phone": "",
+    "summary": "Hi, my name is <strong>Carlan</strong>. I'm a <strong>senior software engineer / ninja</strong>, for the past 10 years I've been analysing business rules in an IT environment, identifying and developing solutions with best practices in various technologies. During these years I've involved myself in the whole development cycle from requirements specification, development of specifications and software development as single developer or an active member of a agile team. I'm a full-stack developer and in the past 5 years I've been developing a lot of microservices and single page web applications (SPA) with Java and Javascript frameworks.",
+    "workExperiences": [
+      {
+        "company": "Saadian Technologies",
+        "position": "Senior Software Engineer",
+        "website": "http://www.saadian.com",
+        "startDate": "Mar 2016",
+        "endDate": "Present",
+        "summary": "This is the summary",
+        "details": [
+          "Development of Java/JEE software components based on Spring, Hibernate and other technologies as required",
+          "Design responsive and accessible web applications",
+          "Develop efficient, highly optimised and clear code",
+          "Development with MVC Frameworks (Spring, Grails, etc)",
+          "Work with Front-End Frameworks as required e.g. Angular JS, JQuery, BootStrap, etc.",
+          "Contribute to project delivery estimations; including impact analysis, scoping of new projects and estimating project development and unit testing tasks",
+          "Assist with product test plans",
+          "Participate in product design and code reviews",
+          "Participate in bug and issue fixing",
+          "Perform production support tasks as needed",
+          "Maintain documentation of all design and development",
+          "Implementation and maintenance of development tools",
+          "Unit testing of components before delivery to QA",
+          "Complete research tasks on research projects as required"
+        ],
+        "projects": [
+          {
+            "name": "PINSv4.4",
+            "stack": "Struts, Hibernate, ...",
+            "stub": "/projects/pinsv4"
+          },
+          {
+            "name": "mHub",
+            "stack": "Grails, Hibernate, ...",
+            "stub": "/projects/mhub"
+          },
+          {
+            "name": "PINSv5",
+            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
+            "stub": "/projects/pinsv5"
+          },
+          {
+            "name": "B2M",
+            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
+            "stub": "/projects/b2m"
+          }
+        ]
+      },
+      {
+        "company": "Saadian Technologies",
+        "position": "Senior Software Engineer",
+        "website": "http://www.saadian.com",
+        "startDate": "Mar 2016",
+        "endDate": "Present",
+        "summary": "This is the summary",
+        "details": [
+          "Development of Java/JEE software components based on Spring, Hibernate and other technologies as required",
+          "Design responsive and accessible web applications",
+          "Develop efficient, highly optimised and clear code",
+          "Development with MVC Frameworks (Spring, Grails, etc)",
+          "Work with Front-End Frameworks as required e.g. Angular JS, JQuery, BootStrap, etc.",
+          "Contribute to project delivery estimations; including impact analysis, scoping of new projects and estimating project development and unit testing tasks",
+          "Assist with product test plans",
+          "Participate in product design and code reviews",
+          "Participate in bug and issue fixing",
+          "Perform production support tasks as needed",
+          "Maintain documentation of all design and development",
+          "Implementation and maintenance of development tools",
+          "Unit testing of components before delivery to QA",
+          "Complete research tasks on research projects as required"
+        ],
+        "projects": [
+          {
+            "name": "PINSv4.4",
+            "stack": "Struts, Hibernate, ...",
+            "stub": "/projects/pinsv4"
+          },
+          {
+            "name": "mHub",
+            "stack": "Grails, Hibernate, ...",
+            "stub": "/projects/mhub"
+          },
+          {
+            "name": "PINSv5",
+            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
+            "stub": "/projects/pinsv5"
+          },
+          {
+            "name": "B2M",
+            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
+            "stub": "/projects/b2m"
+          }
+        ]
+      },
+      {
+        "company": "Saadian Technologies",
+        "position": "Senior Software Engineer",
+        "website": "http://www.saadian.com",
+        "startDate": "Mar 2016",
+        "endDate": "Present",
+        "summary": "This is the summary",
+        "details": [
+          "Development of Java/JEE software components based on Spring, Hibernate and other technologies as required",
+          "Design responsive and accessible web applications",
+          "Develop efficient, highly optimised and clear code",
+          "Development with MVC Frameworks (Spring, Grails, etc)",
+          "Work with Front-End Frameworks as required e.g. Angular JS, JQuery, BootStrap, etc.",
+          "Contribute to project delivery estimations; including impact analysis, scoping of new projects and estimating project development and unit testing tasks",
+          "Assist with product test plans",
+          "Participate in product design and code reviews",
+          "Participate in bug and issue fixing",
+          "Perform production support tasks as needed",
+          "Maintain documentation of all design and development",
+          "Implementation and maintenance of development tools",
+          "Unit testing of components before delivery to QA",
+          "Complete research tasks on research projects as required"
+        ],
+        "projects": [
+          {
+            "name": "PINSv4.4",
+            "stack": "Struts, Hibernate, ...",
+            "stub": "/projects/pinsv4"
+          },
+          {
+            "name": "mHub",
+            "stack": "Grails, Hibernate, ...",
+            "stub": "/projects/mhub"
+          },
+          {
+            "name": "PINSv5",
+            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
+            "stub": "/projects/pinsv5"
+          },
+          {
+            "name": "B2M",
+            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
+            "stub": "/projects/b2m"
+          }
+        ]
+      }            
+    ],
+
+
+
+
+    
+    "skills": [
+      {
+        "name": "Programming",
+        "list": [
+          { "skill": "HTML5", "level": 3 },
+          { "skill": "CSS3", "level": 3 },
+          { "skill": "Sass", "level": 2 },
+          { "skill": "JavaScript", "level": 3 },
+          { "skill": "C#", "level": 3 },
+          { "skill": "PHP", "level": 3 },
+          { "skill": "Bash", "level": 3 }
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "list": [
+          { "skill": "ASP.Net", "level": 3 },
+          { "skill": "WebForms", "level": 3 },
+          { "skill": "WebAPI", "level": 3 },
+          { "skill": "Vue.js", "level": 2 },
+          { "skill": "Mocha (Unit Testing)", "level": 1 }
+        ]
+      },
+      {
+        "name": "Databases & APIs",
+        "list": [
+          { "skill": "SQL Server", "level": 3 },
+          { "skill": "SSIS", "level": 3 },
+          { "skill": "Entity", "level": 2 },
+          { "skill": "LINQ", "level": 3 },
+          { "skill": "mySQL", "level": 3 },
+          { "skill": "GraphQL", "level": 2 }
+        ]
+      },
+      {
+        "name": "Tools",
+        "list": [
+          { "skill": "Visual Studio", "level": 3 },
+          { "skill": "VS Code", "level": 3 },
+          { "skill": "Git", "level": 2 },
+          { "skill": "Photoshop", "level": 3 }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Toledo",
+        "area": "Software Development",
+        "studyType": "AAB",
+        "startDate": "2007-09-02",
+        "endDate": "2009-05-02",
+        "gpa": "3.8",
+        "highlights": [
+          "Programming logic theory, networking technologies, and database management.",
+          "Principles of management & financial accounting",
+          "Business management & workplace diversity concepts."
+        ]
+      },
+      {
+        "institution": "University of Toledo",
+        "area": "Web Design",
+        "studyType": "Certificate",
+        "startDate": "2009-09-20",
+        "endDate": "2010-12-20",
+        "gpa": "",
+        "highlights": [
+          "Design principles & techniques as well as utilizing social media.",
+          "Photo retouching & image manipulation in Adobe Photoshop.",
+          "HTML, CSS, JavaScript and Flash."
+        ]
+      },
+      {
+        "institution": "",
+        "area": "ITIL V3 Foundation",
+        "studyType": "Certification",
+        "startDate": "2009-01-20",
+        "endDate": "2009-01-20",
+        "gpa": "",
+        "highlights": [
+          "Understanding of the IT Service Management (ITSM) Lifecycle and its supporting processes, functions, principles & roles.",
+          "Learned how an ITSM framework can enhance the decision-making process & provide strategy & planning to the development of IT business services."
+        ]
+      }
+    ],
+    "personalProjects": [
+      {
+        "name": "romig.dev",
+        "date": "2019-03-20",
+        "stack": "JavaScript, Vue.js, Gridsome",
+        "stub": "/projects/romig-dev"
+      },
+      {
+        "name": "cakes.romig.dev",
+        "date": "2019-04-30",
+        "stack": "JavaScript, Vue.js, CSS Grid",
+        "stub": "/projects/my-cakes"
+      },
+      {
+        "name": "Meep 2016",
+        "date": "2014-07-24",
+        "stack": "PHP, mySQL, WordPress, Photoshop",
+        "stub": "/projects/meep-2016"
+      }
+    ],
+    "codeSamples": [
+      {
+        "network": "Github",
+        "username": "aromig",
+        "url": "http://github.com/aromig"
+      },
+      {
+        "network": "Github Gist",
+        "username": "aromig",
+        "url": "http://gist.github.com/aromig"
+      },
+      {
+        "network": "CodePen",
+        "username": "aromig",
+        "url": "http://codepen.io/aromig"
+      }
+    ]
+  }
+}
