@@ -61,13 +61,13 @@
         "website": "http://www.saadian.com",
         "startDate": "Mar 2016",
         "endDate": "Present",
-        "summary": "This is the summary",
+        "summary": "Build the new version of the application called PINS (Prisioner Information Notification System) using Microservices architecture and Spring/Java stack. The previous version was built also using Java but with an old framework on a monolith architecture.",
         "details": [
           "Development of Java/JEE software components based on Spring, Hibernate and other technologies as required",
           "Design responsive and accessible web applications",
-          "Develop efficient, highly optimised and clear code",
+          "Develop efficient, highly optimised and clear/clean code",
           "Development with MVC Frameworks (Spring, Grails, etc)",
-          "Work with Front-End Frameworks as required e.g. Angular JS, JQuery, BootStrap, etc.",
+          "Work with Front-End Frameworks as required e.g. Angular JS, Angular, JQuery, BootStrap, etc.",
           "Contribute to project delivery estimations; including impact analysis, scoping of new projects and estimating project development and unit testing tasks",
           "Assist with product test plans",
           "Participate in product design and code reviews",
@@ -75,8 +75,9 @@
           "Perform production support tasks as needed",
           "Maintain documentation of all design and development",
           "Implementation and maintenance of development tools",
-          "Unit testing of components before delivery to QA",
-          "Complete research tasks on research projects as required"
+          "Complete research tasks on research projects as required",
+          "Assist with deployment of the applications",
+          "Unit testing of components before delivery to QA"
         ],
         "projects": [
           {
@@ -146,7 +147,42 @@
             "stub": "/projects/b2m"
           }
         ]
-      }            
+      },
+      {
+        "company": "Petrobras (SLE)",
+        "position": "Software Engineer",
+        "website": "http://www.petrobras.com.br",
+        "startDate": "Mar 2005",
+        "endDate": "Jun 2008",
+        "summary": "Built 3 on-going software applications for the geologist and enginners team to help them extract oil and monitor the whole process.",
+        "details": [
+          "Responsible for the development, gathering requirements, documenting, software testing and maintenance of three on-going software projects",
+          "Participate on the development of a main software project, using Java and Swing, binary data as 'database', apache, bash script, mysql, postgresql, jnlp, ansi c and php on top of a GNU/Linux server for an application package called 'Exata' of the department research and oil & natural gas exploration",
+          "Petróleo Brasileiro S.A. or Petrobras is a semi-public Brazilian multinational energy corporation headquartered in Rio de Janeiro, Brazil. It is the largest company in the Southern Hemisphere by market capitalization and the largest in Latin America measured by 2011 revenues."
+        ],
+        "projects": [
+          {
+            "name": "Programa Gráfico Mestre",
+            "stack": " Java, C, XML, Bash Scripting and Sockets",
+            "stub": "/projects/pgm"
+          },
+          {
+            "name": "Painel Resumido",
+            "stack": "Java, C, XML, Bash Scripting and Sockets",
+            "stub": "/projects/resumida"
+          },
+          {
+            "name": "Gerenciador de Arquivos",
+            "stack": "Java, Bash Scripting and RMI",
+            "stub": "/projects/ga"
+          },
+          {
+            "name": "Acompanhamento Diário de Perfuração",
+            "stack": "Java, C, XML, Bash Scripting and Socket",
+            "stub": "/projects/adp"
+          }
+        ]
+      }          
     ],
 
 
