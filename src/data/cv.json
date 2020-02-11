@@ -184,130 +184,54 @@
         ]
       }          
     ],
-
-
-
-
-    
-    "skills": [
-      {
-        "name": "Programming",
-        "list": [
-          { "skill": "HTML5", "level": 3 },
-          { "skill": "CSS3", "level": 3 },
-          { "skill": "Sass", "level": 2 },
-          { "skill": "JavaScript", "level": 3 },
-          { "skill": "C#", "level": 3 },
-          { "skill": "PHP", "level": 3 },
-          { "skill": "Bash", "level": 3 }
-        ]
-      },
-      {
-        "name": "Frameworks",
-        "list": [
-          { "skill": "ASP.Net", "level": 3 },
-          { "skill": "WebForms", "level": 3 },
-          { "skill": "WebAPI", "level": 3 },
-          { "skill": "Vue.js", "level": 2 },
-          { "skill": "Mocha (Unit Testing)", "level": 1 }
-        ]
-      },
-      {
-        "name": "Databases & APIs",
-        "list": [
-          { "skill": "SQL Server", "level": 3 },
-          { "skill": "SSIS", "level": 3 },
-          { "skill": "Entity", "level": 2 },
-          { "skill": "LINQ", "level": 3 },
-          { "skill": "mySQL", "level": 3 },
-          { "skill": "GraphQL", "level": 2 }
-        ]
-      },
-      {
-        "name": "Tools",
-        "list": [
-          { "skill": "Visual Studio", "level": 3 },
-          { "skill": "VS Code", "level": 3 },
-          { "skill": "Git", "level": 2 },
-          { "skill": "Photoshop", "level": 3 }
-        ]
-      }
-    ],
     "education": [
       {
-        "institution": "University of Toledo",
+        "institution": "Faculdade de Ciências Humanas de Vitória",
         "area": "Software Development",
-        "studyType": "AAB",
-        "startDate": "2007-09-02",
-        "endDate": "2009-05-02",
-        "gpa": "3.8",
+        "studyType": "Barchelor",
+        "startDate": "1999-02-05",
+        "endDate": "2002-12-10",
         "highlights": [
-          "Programming logic theory, networking technologies, and database management.",
-          "Principles of management & financial accounting",
-          "Business management & workplace diversity concepts."
+          "Introduction to computer science, Algorithms",
+          "Computer architecture, Network, Software Engineering",
+          "Application analysis/requirements, Operating Systems, Multimedia",
+          "Databases, Web applications, Statistics",
+          "Project Management"
         ]
       },
       {
-        "institution": "University of Toledo",
-        "area": "Web Design",
-        "studyType": "Certificate",
-        "startDate": "2009-09-20",
-        "endDate": "2010-12-20",
-        "gpa": "",
+        "institution": "Faculdades Integradas Espírito-Santenses / FAESA",
+        "area": "Software Development",
+        "studyType": "Specialist",
+        "startDate": "2004-02-10",
+        "endDate": "",
         "highlights": [
-          "Design principles & techniques as well as utilizing social media.",
-          "Photo retouching & image manipulation in Adobe Photoshop.",
-          "HTML, CSS, JavaScript and Flash."
-        ]
-      },
-      {
-        "institution": "",
-        "area": "ITIL V3 Foundation",
-        "studyType": "Certification",
-        "startDate": "2009-01-20",
-        "endDate": "2009-01-20",
-        "gpa": "",
-        "highlights": [
-          "Understanding of the IT Service Management (ITSM) Lifecycle and its supporting processes, functions, principles & roles.",
-          "Learned how an ITSM framework can enhance the decision-making process & provide strategy & planning to the development of IT business services."
+          "Design thinking, Application architectures, High data volumes", 
+          "Agile methodologies, APIs, IoT",
+          "Javascript, security, Data science",
+          "Data mining, Data management, Mentoring"
         ]
       }
     ],
     "personalProjects": [
       {
-        "name": "romig.dev",
-        "date": "2019-03-20",
-        "stack": "JavaScript, Vue.js, Gridsome",
-        "stub": "/projects/romig-dev"
+        "name": "Corona virus map",
+        "date": "2020-02-04",
+        "stack": "Node and React",
+        "stub": "/projects/corona-virus-map"
       },
       {
-        "name": "cakes.romig.dev",
-        "date": "2019-04-30",
-        "stack": "JavaScript, Vue.js, CSS Grid",
-        "stub": "/projects/my-cakes"
-      },
-      {
-        "name": "Meep 2016",
-        "date": "2014-07-24",
-        "stack": "PHP, mySQL, WordPress, Photoshop",
-        "stub": "/projects/meep-2016"
+        "name": "Curriculum Vitae",
+        "date": "2020-02-04",
+        "stack": "Vue.js and Gridsome",
+        "stub": "/projects/cv"
       }
     ],
-    "codeSamples": [
+    "code": [
       {
         "network": "Github",
-        "username": "aromig",
-        "url": "http://github.com/aromig"
-      },
-      {
-        "network": "Github Gist",
-        "username": "aromig",
-        "url": "http://gist.github.com/aromig"
-      },
-      {
-        "network": "CodePen",
-        "username": "aromig",
-        "url": "http://codepen.io/aromig"
+        "username": "carlan",
+        "url": "http://github.com/carlan"
       }
     ]
   }
