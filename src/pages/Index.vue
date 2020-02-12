@@ -81,18 +81,17 @@
                 <!-- Personal projects -->
                 <section class="project-section py-3">
                   <h3 class="text-uppercase resume-section-heading mb-4">Personal Projects</h3>
-                  <div class="item mb-3">
+                  <div class="item mb-3"
+                       v-for="project in cv.personalProjects" :key="project.name">
                     <div class="item-heading row align-items-center mb-2">
-                      <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project 1</h4>
+                      <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ project.name }}</h4>
                       <div
-                        class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right"
-                      >Open Source</div>
+                        class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
+                        Open Source
+                      </div>
                     </div>
                     <div class="item-content">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. I can also add a
-                        <a href="#" class="theme-link">project link here</a>.
-                      </p>
+                      <p>{{ project.summary }}</p>
                     </div>
                   </div>
                 </section>
@@ -107,9 +106,9 @@
                     <ul class="list-unstyled resume-skills-list">
                       <li class="mb-2">Angular/ReactJs/VueJS</li>
                       <li class="mb-2">Java/Python/Ruby/NodeJS</li>
-                      <li></li>
                       <li class="mb-2">Spring/Spring Cloud/Grails</li>
                       <li class="mb-2">Oracle,SQLServer,Postgres,MySQL</li>
+                      <li class="mb-2">Elasticsearch, Hazelcast</li>
                       <li>Deliver complex software</li>
                     </ul>
                   </div>
@@ -129,15 +128,11 @@
                 <section class="education-section py-3">
                   <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
                   <ul class="list-unstyled resume-education-list">
-                    <li class="mb-3">
-                      <div class="resume-degree font-weight-bold">MSc in Computer Science</div>
-                      <div class="resume-degree-org text-muted">University X</div>
-                      <div class="resume-degree-time text-muted">2010 - X</div>
-                    </li>
-                    <li>
-                      <div class="resume-degree font-weight-bold">BSc X Y</div>
-                      <div class="resume-degree-org text-muted">University Y</div>
-                      <div class="resume-degree-time text-muted">2007 - 2010</div>
+                    <li class="mb-3" 
+                        v-for="edu in cv.education" :key="edu.startDate">
+                      <div class="resume-degree font-weight-bold">{{ edu.studyType }}</div>
+                      <div class="resume-degree-org text-muted">{{ edu.institution }}</div>
+                      <div class="resume-degree-time text-muted">{{ edu.startDate }} - {{ edu.endDate }}</div>
                     </li>
                   </ul>
                 </section>
@@ -162,8 +157,10 @@
                 <section class="skills-section py-3">
                   <h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
                   <ul class="list-unstyled resume-interests-list mb-0">
+                    <li class="mb-2">Programming</li>
                     <li class="mb-2">Movies</li>
                     <li class="mb-2">Tv Shows</li>
+                    <li class="mb-2">Books</li>
                     <li class="mb-2">Gym/Work out</li>
                     <li class="mb-2">Health Food</li>
                     <li class="mb-2">Travelling</li>

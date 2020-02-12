@@ -189,8 +189,8 @@
         "institution": "Faculdade de Ciências Humanas de Vitória",
         "area": "Software Development",
         "studyType": "Barchelor",
-        "startDate": "1999-02-05",
-        "endDate": "2002-12-10",
+        "startDate": "Feb 1999",
+        "endDate": "Dec 2002",
         "highlights": [
           "Introduction to computer science, Algorithms",
           "Computer architecture, Network, Software Engineering",
@@ -203,8 +203,8 @@
         "institution": "Faculdades Integradas Espírito-Santenses / FAESA",
         "area": "Software Development",
         "studyType": "Specialist",
-        "startDate": "2004-02-10",
-        "endDate": "",
+        "startDate": "Feb 2004",
+        "endDate": "2005",
         "highlights": [
           "Design thinking, Application architectures, High data volumes", 
           "Agile methodologies, APIs, IoT",
@@ -218,12 +218,14 @@
         "name": "Corona virus map",
         "date": "2020-02-04",
         "stack": "Node and React",
+        "summary": "A full stack application to show information about the Coronavirus areas affected near you.",
         "stub": "/projects/corona-virus-map"
       },
       {
         "name": "Curriculum Vitae",
         "date": "2020-02-04",
         "stack": "Vue.js and Gridsome",
+        "summary": "Curriculum vitae 📗",
         "stub": "/projects/cv"
       }
     ],
