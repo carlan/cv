@@ -23,7 +23,7 @@ With everything installed, from your command line follow the steps below:
 $ git clone https://github.com/carlan/cv
 
 # Go into the cloned repository directory
-$ cd electron-markdownify
+$ cd cv
 
 # Run the app
 $ gridsome develop
@@ -44,3 +44,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## 🤝 Acknowledgments
 
 * [Xiaoying Riley](https://xiaoyingriley.com/)
+* Favicon by [Freepik](https://www.flaticon.com/authors/freepik)

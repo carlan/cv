@@ -85,7 +85,7 @@
                   <div class="item mb-3"
                        v-for="project in cv.personalProjects" :key="project.name">
                     <div class="item-heading row align-items-center mb-2">
-                      <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ project.name }}</h4>
+                      <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ project.name }} <a :href="project.link"><i class="fa fa-link" aria-hidden="true"></i></a></h4>
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
                         Open Source

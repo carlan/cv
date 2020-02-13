@@ -281,6 +281,7 @@
         "date": "2020-02-04",
         "stack": "Node and React",
         "summary": "A full stack application to show information about the Coronavirus areas affected near you.",
+        "link": "https://github.com/carlan/corona-virus-map",
         "stub": "/projects/corona-virus-map"
       },
       {
@@ -288,6 +289,7 @@
         "date": "2020-02-04",
         "stack": "Vue.js and Gridsome",
         "summary": "Curriculum vitae 📗",
+        "link": "https://github.com/carlan/cv",
         "stub": "/projects/cv"
       }
     ],
