@@ -42,6 +42,7 @@
           <hr />
 
           <div class="resume-body">
+            <!-- resume-->
             <div class="row">
               <div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
                 <!-- work experience -->
@@ -100,6 +101,7 @@
 
               <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
                 <section class="skills-section py-3">
+                  <!-- Skills -->
                   <h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
                   <div class="item">
                     <h4 class="item-title">Technical</h4>
@@ -112,7 +114,9 @@
                       <li>Deliver complex software</li>
                     </ul>
                   </div>
+                  <!-- /Skills -->
 
+                  <!-- Professinal -->
                   <div class="item">
                     <h4 class="item-title">Professional</h4>
                     <ul class="list-unstyled resume-skills-list">
@@ -123,21 +127,25 @@
                       <li>Good time management</li>
                     </ul>
                   </div>
+                  <!-- /Professinal -->
                 </section>
 
                 <section class="education-section py-3">
+                  <!-- Education -->
                   <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
                   <ul class="list-unstyled resume-education-list">
                     <li class="mb-3" 
                         v-for="edu in cv.education" :key="edu.startDate">
-                      <div class="resume-degree font-weight-bold">{{ edu.studyType }}</div>
+                      <div class="resume-degree font-weight-bold">{{ edu.degree }}</div>
                       <div class="resume-degree-org text-muted">{{ edu.institution }}</div>
                       <div class="resume-degree-time text-muted">{{ edu.startDate }} - {{ edu.endDate }}</div>
                     </li>
                   </ul>
+                  <!-- /Education -->
                 </section>
 
                 <section class="skills-section py-3">
+                  <!-- Languages -->
                   <h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
                   <ul class="list-unstyled resume-lang-list">
                     <li class="mb-2">
@@ -153,8 +161,10 @@
                       <span class="text-muted">(Basic)</span>
                     </li>
                   </ul>
+                  <!-- /Languages -->
                 </section>
                 <section class="skills-section py-3">
+                  <!-- Interests -->
                   <h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
                   <ul class="list-unstyled resume-interests-list mb-0">
                     <li class="mb-2">Programming</li>
@@ -166,10 +176,11 @@
                     <li class="mb-2">Travelling</li>
                     <li>Photography</li>
                   </ul>
+                  <!-- /Interests -->
                 </section>
               </aside>
             </div>
-            <!--//row-->
+            <!--/resume-->
           </div>
           <hr />
           <div id="resume-footer" class="resume-footer text-center">
@@ -222,118 +233,4 @@ export default {
 </script>
 
 <style>
-.resume-wrapper {
-  border: 1px solid rgba(0, 0, 0, 0.025);
-}
-
-.resume-section-heading {
-  position: relative;
-  padding-left: 1rem;
-  font-size: 1.125rem;
-  letter-spacing: 0.15rem;
-  color: #54b689;
-}
-
-.resume-section-heading:before {
-  content: "";
-  display: inline-block;
-  width: 5px;
-  height: 100%;
-  background: #54b689;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.resume-name {
-  font-size: 2.75rem;
-  font-weight: 900;
-  letter-spacing: 0.4rem;
-  color: #54b689;
-}
-
-.resume-tagline {
-  font-size: 1.25rem;
-  font-weight: 300;
-}
-
-.resume-contact {
-  border-left: 1px solid rgba(0, 0, 0, 0.08);
-  font-size: 0.75rem;
-}
-
-a.resume-link {
-  color: #4f4f4f;
-}
-
-a.resume-link:hover {
-  color: #54b689;
-}
-
-.resume-profile-image {
-  max-width: 120px;
-}
-
-.resume-intro {
-  font-size: 0.875rem;
-}
-
-.resume-main .item-title {
-  font-size: 1rem;
-}
-
-.resume-main .item-meta {
-  font-size: 0.75rem;
-}
-
-.resume-main .item-content {
-  font-size: 0.875rem;
-}
-
-.resume-aside {
-  border-left: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-.resume-aside .item {
-  font-size: 0.875rem;
-}
-
-.resume-aside .item-title {
-  font-size: 1rem;
-}
-
-.resume-education-list,
-.resume-awards-list {
-  font-size: 0.875rem;
-}
-
-.resume-degree-time-org,
-.resume-degree-time {
-  font-size: 0.75rem;
-}
-
-.resume-lang-list,
-.resume-interests-list {
-  font-size: 0.875rem;
-}
-
-.resume-social-list {
-  font-size: 0.75rem;
-}
-
-.fa-heart {
-  color: #fb866a;
-}
-
-@media (max-width: 991.98px) {
-  .resume-aside {
-    border-left: 0;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .resume-contact {
-    border-left: 0;
-  }
-}
 </style>

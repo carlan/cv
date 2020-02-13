@@ -35,23 +35,23 @@
         "projects": [
           {
             "name": "PINSv4.4",
-            "stack": "Struts, Hibernate, ...",
+            "stack": "Struts, Hibernate, Template engine",
             "stub": "/projects/pinsv4"
           },
           {
             "name": "mHub",
-            "stack": "Grails, Hibernate, ...",
+            "stack": "Grails, Hibernate, Exporting plugins, AngularJS",
             "stub": "/projects/mhub"
           },
           {
             "name": "PINSv5",
-            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
+            "stack": "Microservices, Docker, Spring, Spring Cloud, Hibernate/JPA, Elasticsearch, Hazelcast, Angular",
             "stub": "/projects/pinsv5"
           },
           {
             "name": "B2M",
-            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
-            "stub": "/projects/b2m"
+            "stack": "Microservices, Docker, Spring, Spring Cloud, Hibernate, JPA, Elasticsearch, Hazelcast",
+            "stub": "/projects/b2mv2"
           }
         ]
       },
@@ -59,97 +59,159 @@
         "company": "Saadian Technologies",
         "position": "Senior Software Engineer",
         "website": "http://www.saadian.com",
-        "startDate": "Mar 2016",
-        "endDate": "Present",
-        "summary": "Build the new version of the application called PINS (Prisioner Information Notification System) using Microservices architecture and Spring/Java stack. The previous version was built also using Java but with an old framework on a monolith architecture.",
+        "startDate": "Nov 2013",
+        "endDate": "Jun 2015",
+        "summary": "Built data migration applications (binary files to Integrated Database) and redesign old applications on a new architecture for the geologist and enginners team to help them extract oil and monitor the extracting process.",
         "details": [
-          "Development of Java/JEE software components based on Spring, Hibernate and other technologies as required",
-          "Design responsive and accessible web applications",
-          "Develop efficient, highly optimised and clear/clean code",
-          "Development with MVC Frameworks (Spring, Grails, etc)",
-          "Work with Front-End Frameworks as required e.g. Angular JS, Angular, JQuery, BootStrap, etc.",
-          "Contribute to project delivery estimations; including impact analysis, scoping of new projects and estimating project development and unit testing tasks",
-          "Assist with product test plans",
-          "Participate in product design and code reviews",
-          "Participate in bug and issue fixing",
-          "Perform production support tasks as needed",
-          "Maintain documentation of all design and development",
-          "Implementation and maintenance of development tools",
-          "Complete research tasks on research projects as required",
-          "Assist with deployment of the applications",
-          "Unit testing of components before delivery to QA"
+          "Developing software engineering solutions using agile software development methods for single page web applications (SPA) and migration tools",
+          "Design, implementation, integration and deployment of products, technical analysis and documentation, communication with product owner (PO), estimations and participation in proposals",
+          "Writing and reviewing technical specifications for future product versions and features",
+          "Leading developers team (5 people), team task management, planning activities, effort estimation, daily guidance and support providing hands-on job training",
+          "Participation in hiring process"
         ],
         "projects": [
           {
-            "name": "PINSv4.4",
-            "stack": "Struts, Hibernate, ...",
-            "stub": "/projects/pinsv4"
+            "name": "Entrada de dados de Brocas (Web)",
+            "stack": "Java + VRaptor + Sitemesh + KendoUi, Hibernate, Maven and JSON",
+            "stub": "/projects/entbrocasweb"
           },
           {
-            "name": "mHub",
-            "stack": "Grails, Hibernate, ...",
-            "stub": "/projects/mhub"
+            "name": "Entrada de dados de Fluidos (Web)",
+            "stack": "Java + VRaptor + Sitemesh + KendoUi, Hibernate, Maven and JSON",
+            "stub": "/projects/entfluidosweb"
           },
           {
-            "name": "PINSv5",
-            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
-            "stub": "/projects/pinsv5"
+            "name": "Entrada de dados de Pessoas (Web)",
+            "stack": "Java + VRaptor + Sitemesh + KendoUi, Hibernate, Maven and JSON",
+            "stub": "/projects/entpessoalweb"
           },
           {
-            "name": "B2M",
-            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
-            "stub": "/projects/b2m"
+            "name": "Ferramenta de migração de dados de Brocas",
+            "stack": "Java, Maven, Hibernate, JPA",
+            "stub": "/projects/ferramentamigracaobrocas"
+          },
+          {
+            "name": "Ferramenta de migração de dados de Colunas",
+            "stack": "ava, Maven, Hibernate, JPA",
+            "stub": "/projects/ferramentamigracaocolunas"
+          },
+          {
+            "name": "Ferramenta de migração de dados de Dias de Perfuração",
+            "stack": "Java, Maven, Hibernate, JPA",
+            "stub": "/projects/ferramentamigracaoddp"
+          },
+          {
+            "name": "Ferramenta de migração de dados de Fluidos",
+            "stack": "Java, Maven, Hibernate, JPA",
+            "stub": "/projects/ferramentamigracaofluidos"
+          },                              
+          {
+            "name": "Ferramenta de migração de dados de Ocorrências de Engenharia",
+            "stack": "Java, Maven, Hibernate, JPA",
+            "stub": "/projects/ferramentamigracaoocorrenciasengenharia"
+          },
+          {
+            "name": "Ferramenta de migração de dados de Pessoas",
+            "stack": "Java, Maven, Hibernate, JPA",
+            "stub": "/projects/ferramentamigracaopessoas"
+          },
+          {
+            "name": "Ferramenta de migração de dados de Revestimentos",
+            "stack": "Java, Maven, Hibernate, JPA",
+            "stub": "/projects/ferramentamicracaorevestimentos"
           }
         ]
       },
       {
-        "company": "Saadian Technologies",
-        "position": "Senior Software Engineer",
-        "website": "http://www.saadian.com",
-        "startDate": "Mar 2016",
-        "endDate": "Present",
-        "summary": "This is the summary",
+        "company": "Petrobras (Highlan)",
+        "position": "Software Engineer",
+        "website": "http://www.petrobras.com.br",
+        "startDate": "Jun 2008",
+        "endDate": "Oct 2013",
+        "summary": "Built applications for the geologist and enginners team to help them extract oil and monitor the extracting process.",
         "details": [
-          "Development of Java/JEE software components based on Spring, Hibernate and other technologies as required",
-          "Design responsive and accessible web applications",
-          "Develop efficient, highly optimised and clear code",
-          "Development with MVC Frameworks (Spring, Grails, etc)",
-          "Work with Front-End Frameworks as required e.g. Angular JS, JQuery, BootStrap, etc.",
-          "Contribute to project delivery estimations; including impact analysis, scoping of new projects and estimating project development and unit testing tasks",
-          "Assist with product test plans",
-          "Participate in product design and code reviews",
-          "Participate in bug and issue fixing",
-          "Perform production support tasks as needed",
-          "Maintain documentation of all design and development",
-          "Implementation and maintenance of development tools",
-          "Unit testing of components before delivery to QA",
-          "Complete research tasks on research projects as required"
+          "Developing software engineering solutions using agile software development methods for desktop and web applications",
+          "Design, implementation, integration and deployment of products, technical analysis and documentation, communication with product owner (PO), estimations and participation in proposals",
+          "Writing and reviewing technical specifications for future product versions and features",
+          "Leading developers team (8+ people), team task management, planning activities, effort estimation, daily guidance and support providing hands-on job training",
+          "Participation in hiring process.",
+          "Petróleo Brasileiro S.A. or Petrobras is a semi-public Brazilian multinational energy corporation headquartered in Rio de Janeiro, Brazil. It is the largest company in the Southern Hemisphere by market capitalization and the largest in Latin America measured by 2011 revenues."          
         ],
         "projects": [
           {
-            "name": "PINSv4.4",
-            "stack": "Struts, Hibernate, ...",
-            "stub": "/projects/pinsv4"
+            "name": "Entrada de dados ANP",
+            "stack": "Java, C, XML, Bash Scripting and Socket",
+            "stub": "/projects/entanp"
           },
           {
-            "name": "mHub",
-            "stack": "Grails, Hibernate, ...",
-            "stub": "/projects/mhub"
+            "name": "Exata Móvel",
+            "stack": "Java + VRaptor + Sitemesh, Bash Scripting and Socket",
+            "stub": "/projects/exatamovel"
           },
           {
-            "name": "PINSv5",
-            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
-            "stub": "/projects/pinsv5"
+            "name": "Portal da Sede",
+            "stack": "Java + VRaptor + Sitemesh, Bash Scripting and Socket",
+            "stub": "/projects/portalsede"
           },
           {
-            "name": "B2M",
-            "stack": "Spring, Spring Cloud, Hibernate, JPA, Microservices, Docker, Elasticsearch, ...",
-            "stub": "/projects/b2m"
+            "name": "Portal de Sonda",
+            "stack": "Java + VRaptor + Sitemesh, Bash Scripting and Socket",
+            "stub": "/projects/portalsonda"
+          },                              
+          {
+            "name": "Acompanhamento Diário de Perfuração",
+            "stack": "Java, Android, C, XML, Bash Scripting and Socket",
+            "stub": "/projects/adpmovel"
+          },
+          {
+            "name": "Entrada de Dias de Perfuração",
+            "stack": "Java, C, XML, Bash Scripting and Socket",
+            "stub": "/projects/entperf"
+          },
+          {
+            "name": "Entrada de Dias de Perfuração",
+            "stack": "Java, C, XML, Bash Scripting and Socket",
+            "stub": "/projects/entddp"
+          },
+          {
+            "name": "Entrada de dados de Brocas",
+            "stack": "Java, C, XML, Bash Scripting and Socket",
+            "stub": "/projects/entbrocas"
+          },
+          {
+            "name": "Entrada de dados de Colunas",
+            "stack": "Java, C, XML, Bash Scripting and Socket",
+            "stub": "/projects/entcoluna"
+          },
+          {
+            "name": "Entrada de dados de Pessoas",
+            "stack": "Java, C, XML, Bash Scripting and Socket",
+            "stub": "/projects/entpessoal"
+          },
+          {
+            "name": "Entrada de dados de Revestimento",
+            "stack": "Java, C, XML, Bash Scripting and Socket",
+            "stub": "/projects/entrevestimento"
+          },                              
+          {
+            "name": "Gerenciador Móvel",
+            "stack": "Java, C, XML, Bash Scripting and Socket.",
+            "stub": "/projects/gerenciadormovel"
+          },
+          {
+            "name": "Gerenciador de Mensagens Instantâneas",
+            "stack": "Java, Bash Scripting and Socket",
+            "stub": "/projects/gerenciadormensagensinstantaneas"
+          },
+          {
+            "name": "Teste de Formação",
+            "stack": "Java, Bash Scripting, JRxTx and Socket",
+            "stub": "/projects/testeformacao"
           }
         ]
       },
       {
-        "company": "Petrobras (SLE)",
+        "company": "Petrobras (Highlan)",
         "position": "Software Engineer",
         "website": "http://www.petrobras.com.br",
         "startDate": "Mar 2005",
@@ -188,7 +250,7 @@
       {
         "institution": "Faculdade de Ciências Humanas de Vitória",
         "area": "Software Development",
-        "studyType": "Barchelor",
+        "degree": "Barchelor",
         "startDate": "Feb 1999",
         "endDate": "Dec 2002",
         "highlights": [
